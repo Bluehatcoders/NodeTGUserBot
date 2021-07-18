@@ -1,7 +1,7 @@
 const TelegramAPI = require('tg-cli-node');
 const path = require('path');
 const fs = require("fs");
-const admin = "your-id"; //admin id
+const admin = "6512145"; //admin id
 const Client = new TelegramAPI({
   telegram_cli_path: path.join(__dirname, 'tg/bin/telegram-cli'), //path to tg-cli
   telegram_cli_socket_path: path.join(__dirname, 'socket'), //path for socket file
